@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #473c3c;
+}
+
+.container {
+    height: 100vh;
+    font-family: "Red rose";
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+nav .logo {
+    margin-left: 75px;
+}
+
+nav .list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+nav .button-small {
+    margin-right: 75px;
+    padding: 16px 48px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #9f9f2a;
+    border: 2px solid #9f9f2a;
+    border-radius: 12px;
+}
+
+.list-item {
+    margin: 0 25px;
+    color: #75756f;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.list-item:hover {
+    color: #ffffff;
+}
+
+.justice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    margin-top: 64px;
+}
+
+.justice-heading {
+    color: #ffffff;
+    font-size: 76px;
+    margin-left: 75px;
+    width: 50%;
+} 
+
+.justice-desc {
+    margin: 0 75px;
+    font-size: 24px;
+    color: #ffffff;
+    width: 50%;
+}
+
+.bottom-img {
+    max-height: 50%;
+    margin-top: 72px;
+}
+
+.bottom-img img{
+    width: 100%;
+    height: 300px; 
+}
